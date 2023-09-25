@@ -1,0 +1,45 @@
+.preview {
+  border: 1px solid #d2d2d2;
+  height: 100%;
+}
+
+
+.preview__text_gray {
+  color: #707070;
+}
+
+.preview__section {
+  font-size: 1.5rem;
+  color: #02818C;
+  margin: 1rem 1rem 4rem;
+}
+
+.preview__section > p {
+  color: #121212;
+}
+
+.preview__header {
+  background-color:  #02818C;
+  color: #121212;
+  padding: 8px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.preview__name {
+  margin: 0;
+  height: 40px;
+  font-size: 1.8rem;
+}
+
+.preview__contact {
+  display: flex;
+  gap: 8px;
+}
+.preview__contact > span {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
